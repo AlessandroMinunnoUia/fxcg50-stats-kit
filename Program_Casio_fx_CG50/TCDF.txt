@@ -1,0 +1,6 @@
+'ProgramMode:RUN
+"Enter _#E64B_"?->M
+"Enter _#E651_"?->S
+"Enter _#E64C_"?->V
+"Enter x"?->X
+tCD(-10^99,(X-M)/S,V)->C

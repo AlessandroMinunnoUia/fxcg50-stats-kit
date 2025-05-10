@@ -1,0 +1,30 @@
+'ProgramMode:RUN
+"Poisson interval"
+"Exact _#E64A_~_#E642_(_#E649_,_#E653_)"
+"Enter _#E649_"?->K
+"Enter _#E653_"?->T
+"Enter I%"?->I
+(100-I)/200->P
+InvChiCD(1-P,2*K)/(2*T)->L
+InvChiCD(P,2*K)/(2*T)->U
+"Exact:"
+"Min:"
+LDisps
+"Max:"
+UDisps
+"Approximate:"
+K/T->F
+K/(T*T)->E
+InvNormCD(P,1,0)->Z
+F-Z*E->M
+F+Z*E->N
+"_#E64B_="
+FDisps
+"_#E651_="
+EDisps
+"z _#E640_="
+ZDisps
+"Min:"
+NDisps
+"Max:"
+M

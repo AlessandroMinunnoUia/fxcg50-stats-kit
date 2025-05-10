@@ -1,0 +1,29 @@
+'ProgramMode:RUN
+"Beta Compare"
+"Normal approximation"
+"_#E657_~_#E641_(a,b)"
+"Enter a"?->A
+"Enter b"?->B
+"_#E64F_~_#E641_(_#E647_,_#E650_)"
+"Enter _#E647_"?->C
+"Enter _#E650_"?->D
+(A*B)/((A+B)^2*(A+B+1))->E
+A/(A+B)->F
+(C*D)/((C+D)^2*(C+D+1))->G
+C/(C+D)->H
+F-H->I
+Sqrt(E+G)->J
+"_#E64B___#E657_="
+FDisps
+"_#E651___#E657_="
+Sqrt(E)Disps
+"_#E64B___#E64F_="
+HDisps
+"_#E651___#E64F_="
+Sqrt(G)Disps
+"_#E64B__z="
+IDisps
+"_#E651__z="
+JDisps
+"P(_#E657_<_#E64F_)=P(_#E657_-_#E64F_<0)="
+NormCD(-10^99,0,J,I)

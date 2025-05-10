@@ -1,0 +1,5 @@
+'ProgramMode:RUN
+"Enter k"?->K
+"Enter _#E64A_"?->L
+"Enter t"?->T
+2*L*ChiPD(2*L*T,2*K)->P

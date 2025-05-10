@@ -1,0 +1,5 @@
+'ProgramMode:RUN
+"Enter a"?->A
+"Enter b"?->B
+"Enter p"?->P
+1/(1+B/(A*InvFCD(1-P,2*A,2*B)))->I

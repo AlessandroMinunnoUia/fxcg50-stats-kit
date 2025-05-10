@@ -1,0 +1,30 @@
+'ProgramMode:RUN
+"Bernoulli interval"
+"For _#E64F_~_#E641_(_@E761_,_@E762_)"
+"Enter a"?->A
+"Enter b"?->B
+"Enter I%"?->I
+(100-I)/200->P
+1/(1+B/(A*InvFCD(1-P,2*A,2*B)))->L
+1/(1+B/(A*InvFCD(P,2*A,2*B)))->U
+"Exact:"
+"Min:"
+LDisps
+"Max:"
+UDisps
+"Approximate:"
+A/(A+B)->F
+Sqrt((A*B)/((A+B)^2*(A+B+1)))->E
+InvNormCD(P,1,0)->Z
+F-Z*E->M
+F+Z*E->N
+"_#E64B_="
+FDisps
+"_#E651_="
+EDisps
+"z _#E640_="
+ZDisps
+"Min:"
+NDisps
+"Max:"
+M

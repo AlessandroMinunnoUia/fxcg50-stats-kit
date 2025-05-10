@@ -1,0 +1,5 @@
+'ProgramMode:RUN
+"Enter k"?->K
+"Enter p"?->P
+"Enter x"?->X
+1-BinomialCD(K-1,X+K,P)->C

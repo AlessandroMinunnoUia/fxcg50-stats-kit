@@ -1,0 +1,4 @@
+'ProgramMode:RUN
+"Enter _#E64C_"?->V
+"Enter p"?->P
+0-1*InvTCD(P,V)->I

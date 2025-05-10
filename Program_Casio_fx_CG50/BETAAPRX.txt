@@ -1,0 +1,11 @@
+'ProgramMode:RUN
+"_#E641_ approximation"
+"_#E64F_~_#E641_(a,b)"
+"Enter a"?->A
+"Enter b"?->B
+(A*B)/((A+B)^2*(A+B+1))->E
+A/(A+B)->F
+"_#E64B___#E64F_="
+FDisps
+"_#E651___#E64F_="
+Sqrt(E)

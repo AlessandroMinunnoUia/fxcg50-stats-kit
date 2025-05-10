@@ -1,0 +1,5 @@
+'ProgramMode:RUN
+"Enter a"?->A
+"Enter b"?->B
+"Enter t"?->T
+(B/(A*(1-T)^2))*FPD(B*T/(A*(1-T)),2*A,2*B)->P

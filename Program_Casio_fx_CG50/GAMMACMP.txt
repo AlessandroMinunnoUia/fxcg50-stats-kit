@@ -1,0 +1,10 @@
+'ProgramMode:RUN
+"Gamma Comparison"
+"P(T1<T2)"
+"T1 ~ _#E642_(K,L)"
+"Enter K"?->K
+"Enter L"?->L
+"T2 ~ _#E642_(_#E649_,_#E653_)"
+"Enter _#E649_"?->M
+"Enter _#E653_"?->N
+FCD(0,(M*L)/(K*N),2*K,2*M)

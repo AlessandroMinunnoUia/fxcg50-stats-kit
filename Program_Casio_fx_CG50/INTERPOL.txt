@@ -1,0 +1,7 @@
+'ProgramMode:RUN
+"Z1"?->A
+"Y1"?->B
+"Z2"?->C
+"Y2"?->D
+"Z"?->X
+B+(D-B)/(C-A)*(X-A)->Y

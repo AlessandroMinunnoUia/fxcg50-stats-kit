@@ -1,0 +1,17 @@
+'ProgramMode:RUN
+"Gamma distribution"
+"T~_#E642_(k,_#E64A_)"
+"Enter k"?->K
+"Enter _#E64A_"?->L
+"Expected value"
+"E[T]=_#E64B_="
+K/L->E
+EDisps
+"T max ="
+(K-1)/L->M
+MDisps
+"_#E651_="
+Sqrt(K/L^2)->S
+SDisps
+"Median ="
+InvChiCD(0.5,2*K)/(2*L)

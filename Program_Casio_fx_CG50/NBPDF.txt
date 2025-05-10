@@ -1,0 +1,5 @@
+'ProgramMode:RUN
+"Enter k"?->K
+"Enter p"?->S
+"Enter x"?->X
+S*BinomialPD(K-1,X+K-1,S)->P
