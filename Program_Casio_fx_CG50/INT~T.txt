@@ -1,0 +1,14 @@
+'ProgramMode:RUN
+"Bayesian T Interval"
+"for X~t(_#E64B_,_#E651_,_#E64C_)"
+"Enter _#E64B_"?->M
+"Enter _#E651_"?->S
+"Enter _#E64C_"?->V
+"Enter I%"?->I
+(100-I)/200->P
+M-S*InvTCD(P,V)->L
+M-S*InvTCD(1-P,V)->U
+"Min:"
+LDisps
+"Max:"
+U
