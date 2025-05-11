@@ -14,7 +14,7 @@ LDisps
 UDisps
 "Approximate:"
 K/T->F
-K/(T*T)->E
+Sqrt(K/(T*T))->E
 InvNormCD(P,1,0)->Z
 F-Z*E->M
 F+Z*E->N
